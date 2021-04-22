@@ -41,7 +41,7 @@ noremap  <expr> <silent> <Plug>(mkdx-text-inline-code-v) mkdx#WrapSelectionInCod
 noremap         <silent> <Plug>(mkdx-text-strike-v)      :<C-U>call mkdx#WrapStrike('v')<Cr>
 noremap         <silent> <Plug>(mkdx-toggle-to-kbd-n)    :call      mkdx#ToggleToKbd()<Cr>
 noremap         <silent> <Plug>(mkdx-toggle-to-kbd-v)    :<C-U>call mkdx#ToggleToKbd('v')<Cr>
-noremap         <silent> <Plug>(mkdx-shift-o)            :<C-U>call mkdx#ShiftOHandler()<Cr>
+#noremap         <silent> <Plug>(mkdx-shift-o)            :<C-U>call mkdx#ShiftOHandler()<Cr>
 noremap         <silent> <Plug>(mkdx-o)                  :<C-U>call mkdx#OHandler()<Cr>
 noremap         <silent> <Plug>(mkdx-gf)                 :<C-U>call mkdx#gf('f')<Cr>
 noremap         <silent> <Plug>(mkdx-gx)                 :<C-U>call mkdx#gf('x')<Cr>
